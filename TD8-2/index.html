@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Photobox</title>
+</head>
+<body>
+
+<main>
+  <section id="gallery">
+    <nav>
+      <div id="gallery-buttons" class="buttons">
+
+        <button id="first_page">&lt&lt </button>
+        <button id="previous_page">&lt </button>
+        <button id="load_gallery">&#8635 Load</button>
+        <button id="next_page">&gt </button>
+        <button id="last_page">&gt&gt </button>
+
+      </div>
+    </nav>
+
+    <div class="gallery-container" id="gallery_container" draggable="false">
+      <div class="thumbnail"></div>
+    </div>
+
+    <footer>
+      Hugo COLLIN - 29/05/2023
+    </footer>
+
+  </section>
+
+  <section id="viewer">
+    <div id="image-container">
+      <div id="viewer-head">
+        <span id="close-viewer">x</span>
+        <h2>titre</h2>
+        <span></span>
+      </div>
+      <div id="image-view">
+        <img src="" alt="Fullscreen image view" draggable="false">
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script type="module" src="js/main.min.js"></script>
+
+</body>
+</html>

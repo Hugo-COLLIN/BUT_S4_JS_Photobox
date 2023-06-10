@@ -1,0 +1,14 @@
+{
+  "name": "photobox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "build": "esbuild js/main.js --bundle --minify --sourcemap --outfile=js/main.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo COLLIN",
+  "devDependencies": {
+    "esbuild": "^0.18.0"
+  }
+}
